@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a, a:hover, a:focus {
+    text-decoration: none;
+}
+
+ol, ul, li {
+    display: inline-block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 0;
+}
+
+body {
+    overflow-x: hidden;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 5px;
+    line-height: 24px;
+    padding: 20px;
+}
+
+.l-black {
+    color: #636566;
+
+}
+
+.l-white {
+    color: #ffffff;
+}
+
+.text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.t-up {
+    text-transform: uppercase;
+}
+
+.main {
+    text-align: center;
+}
+
+.s-text {
+    font-size: 14px !important;
+    padding: 10px 150px;
+    letter-spacing: 2px;
+}
+
+.ico {
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.t-a-j {
+    text-align: justify;
+}
+.f-w-700{
+    font-weight: 700;
+}
+.h-f{
+    font-weight: 900!important;
+    font-size: 35px!important;
+}
+.j-c-c{
+    justify-content: center;
+}
+/*===================================================header-top-start=================================================*/
+#header-top {
+    padding: 15px 0;
+    background: #66B14C;
+}
+
+#header-top .item {
+    display: flex;
+    justify-content: center;
+}
+
+#header-top .icon i {
+    color: #fff;
+    font-weight: 900;
+    font-size: 18px;
+    padding: 0 10px;
+    line-height: 24px;
+}
+
+/*================================================header-top-end======================================================*/
+/*=================================================banner-start======================================================*/
+#banner {
+    padding: 100px 0;
+}
+
+#banner .logo {
+    text-align: center;
+}
+
+#banner .promo {
+    text-align: center;
+    color: #66B14C;
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/*===================================================banner-end======================================================*/
+/*==================================================what-we-start=====================================================*/
+#what-we {
+    background: #66B14C;
+    margin: 50px 0;
+    padding: 100px 0;
+}
+
+/*===================================================what-we-end======================================================*/
+/*===================================================who-we-start======================================================*/
+#who-we{
+    background: #66B14C;
+    margin: 50px 0;
+    padding: 100px 0;
+}
+
+#who-we .item{
+    margin: 20px;
+}
+/*===================================================how-we-end======================================================*/
+/*===================================================contact-start======================================================*/
+#contact{
+    padding: 50px 0;
+}
+/*===================================================contact-end======================================================*/
+/*===================================================how-we-end======================================================*/
+
+/*===================================================copy-start======================================================*/
+#copy{
+    background: #66B14C;
+    padding: 15px 0;
+}
+#copy .text{
+    font-size: 14px;
+}
+/*===================================================copy-end======================================================*/
